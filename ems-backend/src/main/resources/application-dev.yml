@@ -16,6 +16,3 @@ logging:
 
 
 
-app:
-  cors:
-    allowed-origins: "http://localhost:5173,https://ems-by-anmol.vercel.app"
