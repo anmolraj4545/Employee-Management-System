@@ -45,7 +45,7 @@ app:
     access-token-expiration-ms: 900000        # 15 minutes
     refresh-token-expiration-ms: 604800000    # 7 days
   cors:
-    allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:5173}
+    allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:5173, https://ems-by-anmol.vercel.app}
   cookie:
     secure: ${COOKIE_SECURE:false}   # set true in production (requires HTTPS)
   upload:
